@@ -18,7 +18,7 @@ namespace Rog
             DPSGun = g.DPS;
             while(HealthMonster > 0)
             {
-                m.Batle();
+                
                 HealthMonster -= DPSGun;
                 Console.WriteLine($"Здоровье монстра = {HealthMonster}");
             }

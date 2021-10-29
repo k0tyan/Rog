@@ -20,7 +20,6 @@ namespace Rog
         }
         public void GetInfo()
         {
-            GetDamage();
             Console.WriteLine($"Атака мечом = {DPS}");
         }
     }

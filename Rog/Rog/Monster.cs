@@ -30,11 +30,5 @@ namespace Rog
             Console.WriteLine($"Здоровье монстра = {health}\n" +
                 $"Удар монстра = {DPS}");
         }
-        public void Batle()
-        {
-            Gun g = new Gun();
-            
-            h -= g.DPS;
-        }
     }
 }
