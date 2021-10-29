@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SamuraMaks\\source\\repos\\Rog\\Rog\\Rog.csproj": {}
+    "C:\\Users\\SamuraMaks\\Dekstop\\GitHub\\Rog\\Rog\\Rog\\Rog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SamuraMaks\\source\\repos\\Rog\\Rog\\Rog.csproj": {
+    "C:\\Users\\SamuraMaks\\Dekstop\\GitHub\\Rog\\Rog\\Rog\\Rog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SamuraMaks\\source\\repos\\Rog\\Rog\\Rog.csproj",
+        "projectUniqueName": "C:\\Users\\SamuraMaks\\Dekstop\\GitHub\\Rog\\Rog\\Rog\\Rog.csproj",
         "projectName": "Rog",
-        "projectPath": "C:\\Users\\SamuraMaks\\source\\repos\\Rog\\Rog\\Rog.csproj",
+        "projectPath": "C:\\Users\\SamuraMaks\\Dekstop\\GitHub\\Rog\\Rog\\Rog\\Rog.csproj",
         "packagesPath": "C:\\Users\\SamuraMaks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SamuraMaks\\source\\repos\\Rog\\Rog\\obj\\",
+        "outputPath": "C:\\Users\\SamuraMaks\\Dekstop\\GitHub\\Rog\\Rog\\Rog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SamuraMaks\\AppData\\Roaming\\NuGet\\NuGet.Config",

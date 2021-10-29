@@ -11,7 +11,12 @@ namespace Rog
         public int damage;
         public int attack_speed;
         public int DPS;
-        public int health = 100;
+        public int health;
+        public int h;
+        public Monster()
+        {
+            health = 100;
+        }
         public void GetDamage()
         {
             Random rnd = new Random();
@@ -24,6 +29,12 @@ namespace Rog
             GetDamage();
             Console.WriteLine($"Здоровье монстра = {health}\n" +
                 $"Удар монстра = {DPS}");
+        }
+        public void Batle()
+        {
+            Gun g = new Gun();
+            
+            h -= g.DPS;
         }
     }
 }

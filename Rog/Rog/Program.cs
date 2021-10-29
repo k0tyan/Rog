@@ -9,17 +9,17 @@ namespace Rog
             Gun g = new Gun();
             Sword s = new Sword();
             Monster m = new Monster();
-            int health = 100;
-            //s.GetInfo();
-            //m.GetInfo();
-            do
-            {
-                health -= g.DPS;
-                g.GetInfo(health);
+            Inventory i = new Inventory();
+            Fight f = new Fight();
+            //Console.WriteLine("Чтоб открыть инвертарь нажмите 3");
+            //string c = Console.ReadLine();
+            f.Battle();
 
-            }
-            while (health > 0);
-            Console.WriteLine("Монстр побежден");
+
+            //if (c == "3")
+            //{
+            //    i.GetItem();
+            //}
         }
     }
 }
