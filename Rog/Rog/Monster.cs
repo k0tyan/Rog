@@ -12,21 +12,19 @@ namespace Rog
         public int attack_speed;
         public int DPS;
         public int health;
-        public int h;
+        public int Hhealth;
         public Monster()
         {
             health = 100;
-        }
-        public void GetDamage()
-        {
             Random rnd = new Random();
             damage = rnd.Next(5, 25);
-            attack_speed = 210;
+            attack_speed = 10;
             DPS = (damage * attack_speed) / 60;
+            Hero h = new Hero();
+            Hhealth = h.health;
         }
         public void GetInfo()
         {
-            GetDamage();
             Console.WriteLine($"Здоровье монстра = {health}\n" +
                 $"Удар монстра = {DPS}");
         }

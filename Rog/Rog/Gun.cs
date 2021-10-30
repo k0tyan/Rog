@@ -18,10 +18,9 @@ namespace Rog
             attack_speed = rnd.Next(5, 10);
             DPS = (damage * attack_speed) / 60;
         }
-        public void GetInfo(/*int health*/)
+        public void GetInfo()
         {
-            Console.WriteLine(/*$"Здоровье монстра = {health}\n" +*/
-                $"Атака пистолета = {DPS}");
+            Console.WriteLine($"Атака пистолета = {DPS}");
         }
     }
 }
