@@ -8,25 +8,34 @@ namespace Rog
 {
     class Monster
     {
-        public int damage;
-        public int attack_speed;
-        public int DPS;
-        public int health;
-        public int Hhealth;
-        public Monster()
-        {
-            health = 100;
-            Random rnd = new Random();
-            damage = rnd.Next(5, 25);
-            attack_speed = 10;
-            DPS = (damage * attack_speed) / 60;
-            Hero h = new Hero();
-            Hhealth = h.health;
-        }
+        protected int damage;
+        protected int attack_speed;
+        protected int DPS;
+        protected int health;
+        public int GetHealth() { return health; }
+        public int GetDamage() { return DPS = (damage * attack_speed) / 60; }
         public void GetInfo()
         {
             Console.WriteLine($"Здоровье монстра = {health}\n" +
                 $"Удар монстра = {DPS}");
         }
+    }
+    class Ghoul : Monster
+    {
+        public Ghoul(int attack_speed,int damage,int health)
+        {
+            this.attack_speed = attack_speed;
+            this.damage = damage;
+            this.health = health;
+        }
+    }
+    class Evil: Monster
+    {
+        public Evil(int attack_speed, int damage, int health)
+        {
+            this.attack_speed = attack_speed;
+            this.damage = damage;
+            this.health = health;
+        }       
     }
 }

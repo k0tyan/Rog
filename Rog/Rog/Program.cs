@@ -6,17 +6,10 @@ namespace Rog
     {
         static void Main(string[] args)
         {
-            Inventory i = new Inventory();
-            Fight f = new Fight();
-            //Console.WriteLine("Чтоб открыть инвертарь нажмите 3");
-            //string c = Console.ReadLine();
-            f.Battle();
-
-
-            //if (c == "3")
-            //{
-            //    i.GetItem();
-            //}
+            Fight_Ghoul fg = new Fight_Ghoul();
+            fg.Battle();
+            History h = new History();
+            //h.Telling();
         }
     }
 }

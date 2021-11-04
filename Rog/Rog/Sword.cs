@@ -11,10 +11,14 @@ namespace Rog
         public int damage;
         public int attack_speed;
         public int DPS;
+        public int DMIN;
+        public int DMAX;
         public Sword()
         {
+            DMIN = 30;
+            DMAX = 70;
             Random rnd = new Random();
-            damage = rnd.Next(30, 70);
+            damage = rnd.Next(DMIN, DMAX);
             attack_speed = 5;
             DPS = (damage * attack_speed) / 60;
         }
