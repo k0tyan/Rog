@@ -7,6 +7,6 @@ That is, at the very beginning you have only a sword and a pistol. In this case,
 
 
 <h2>Version description </h2>
-- v 0.1.1 such classes as sword, pistol, monster, battles and hero were added and it was written what they do.
-- v 0.2.1, a consistent battle was built in it.
-- v 0.3.1 a new story class was added in which the story of the game is built. 2 different monsters were added and a battle with them was lined up. 
+* v 0.1.1 such classes as sword, pistol, monster, battles and hero were added and it was written what they do.
+* v 0.2.1, a consistent battle was built in it.
+* v 0.3.1 a new story class was added in which the story of the game is built. 2 different monsters were added and a battle with them was lined up. 
